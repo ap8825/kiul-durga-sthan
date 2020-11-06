@@ -6,6 +6,10 @@
   align-items: center; 
   position: relative;
 }
+body{
+  padding-top:56px;
+
+}
 .text{
   font-size: 23px;
   font-weight: bold;
@@ -19,6 +23,7 @@
   height: 100vh;
   background-repeat: no-repeat;
   color: white;
+  padding-top:0px;
 }
 #imgg{
        width:5.6rem;
@@ -63,4 +68,41 @@ padding: 20px;
   height:400px;
   width:500px;
 
+}
+#takla{
+  
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+
+}
+@media screen and (max-width: 500px) {
+  #takla{
+      font-size:8px;
+  }
+}
+#aao{
+  background-image: url("7cC.gif");
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.fontsize{
+  font-size: 2.5vw;
+  color: white;
+}
+.for{
+  font-size: 4.5vw;
+  color: white;
+}
+.font{
+  font-size: 4vw;
+  
 }
